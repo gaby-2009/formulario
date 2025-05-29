@@ -333,9 +333,11 @@ form button {
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
+
 form button :hover {
   background-color: #c1698b;
 }
+
 
 /*---estilo para formulário---*/
 .form-container {
