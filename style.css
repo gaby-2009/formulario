@@ -303,7 +303,7 @@ form {
 form label {
   margin-top: 15px;
   font-weight: bold;
-  color: #ff91bb;
+  color: #d266f6;
 }
 
 form input,
@@ -313,7 +313,7 @@ form textarea {
   padding: 10px;
   font-size: 16px;
   border-radius: 5px;
-  border: 1px solid rgb(182, 117, 150);
+  border: 1px solid rgb(122, 11, 112);
   background-color: #fcf4f4;
   box-sizing: border-box;
 }
@@ -335,29 +335,60 @@ form button {
 }
 
 form button :hover {
-  background-color: #c1698b;
+  background-color: #ef48f1;
 }
 
 
-/*---estilo para formulário---*/
+/* --- ESTILO PARA O FORMULÁRIO--- */
+
 .form-container {
   max-width: 600px;
   margin: 30px auto;
-  background-color: #609;
+  background-color: #ffdddd;
   padding: 30px;
   border-radius: 10px;
-  box-shadow: 0 0 12px purple;
-  border: 1px solid #f0f0f0;
+  box-shadow: 0 0 12px rgb(0, 0, 0.1);
+  border: #fcf4f4;
 }
 
 form {
-   display: flex;
+  display: flex;
   flex-direction: column;
 }
 
 form label {
-
   margin-top: 15px;
   font-weight: bold;
-  color: #90f;
+  color: #ac1cee;
+}
+
+form input,
+form select,
+form textarea {
+  margin-top: 5px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid rgb(185, 92, 252);
+  background-color: #fcf4f4;
+  box-sizing: border-box;
+}
+
+form textarea {
+  resize: vertical;
+}
+
+form button {
+  margin-top: 25px;
+  padding: 12px;
+  font-size: 18px;
+  background-color: #ab0beb;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+form button :hover {
+  background-color: #8808e4;
 }
