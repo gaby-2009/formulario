@@ -1,35 +1,11 @@
-.imagem-container {
-  position: relative;
-  width: 100%;
-  max-width: 600px; /* Ajuste conforme necessário */
-}
-
-.imagem-container img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-.texto-sobreposto {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  text-align: center;
-  background-color: rgba(0, 0, 0, 0.5); /* Fundo semitransparente */
-  padding: 20px;
-  border-radius: 10px;
-}
-
-
-
-.imagem-com-texto {
-  display: flex;
-  align-items: center;
-}
-
-.imagem-com-texto img {
-  width: 150px;
+.texto-com-imagem img {
+  float: left;
   margin-right: 15px;
+  width: 30%;
+}
+
+.texto-com-imagem::after {
+  content: "";
+  display: table;
+  clear: both;
 }
