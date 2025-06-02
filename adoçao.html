@@ -8,52 +8,67 @@
     <link rel="icon" href="https://www.emoji.co.uk/files/phantom-open-emojis/smileys-people-phantom/13172-skull.png" type="image/png" />
     <script src="script.js"></script>
     <style>
+    /* Estilo do cartão */
     .card {
       width: 300px;
       border: 1px solid #ccc;
-      border-radius: 10px;
-      padding: 15px;
+      border-radius: 8px;
+      overflow: hidden;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      display: flex;
-      flex-direction: column;
-      align-items: center;
       font-family: Arial, sans-serif;
+      background-color: #fff;
     }
 
+    /* Estilo da imagem */
     .card img {
       width: 100%;
       height: auto;
-      border-radius: 8px;
+      border-bottom: 1px solid #ccc;
     }
 
-    .card h2 {
-      margin: 10px 0 5px;
+    /* Estilo do conteúdo do cartão */
+    .card-body {
+      padding: 15px;
     }
 
-    .card p {
-      margin: 0 0 10px;
-      color: #f9f3f3;
+    /* Título do cartão */
+    .card-title {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+      color: #333;
     }
 
-    .card a {
+    /* Descrição do cartão */
+    .card-text {
+      font-size: 1rem;
+      color: #666;
+      margin-bottom: 15px;
+    }
+
+    /* Link do cartão */
+    .card-link {
       text-decoration: none;
-      color: #8400ff;
+      color: #007BFF;
+      font-weight: bold;
+    }
+
+    /* Efeito de hover no link */
+    .card-link:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 <body style="color: blueviolet;">
  <h1>Venha conhecer os Animais</h1>
 
-    <div class="texto-com-imagem">
+    <div class="card">
     <img src="https://th.bing.com/th/id/R.91726b6541ee22a189df9f41b76d7240?rik=4O0mdE71oA8b2A&riu=http%3a%2f%2f3.bp.blogspot.com%2f-PcC6kfJRhOU%2fUJ59BU4ZNiI%2fAAAAAAAACMo%2fzlhFQucArnw%2fs1600%2fcachorros%2bpequenos.jpg&ehk=%2b39KYR6HQ3VvRD%2fF0BTXbK24%2fqzIx9ccKMzFCNaYj10%3d&risl=&pid=ImgRaw&r=0" 
          alt="Cachorro fofo" width="300">
          <div class="texto-sobreposto"></div>
         <h2 style="float: left; margin-right: 10px;">Luke</h2>
         <p style="float: left; margin-right: 10px;">pequeno 🐶</p>
-        <a href="informacoes.html">informações adicionais</a>
+        <a href="informaçoes.html">informações adicionais</a>
         <div style="clear: both;"></div>
-
-  
     </div>
      
 </body>
